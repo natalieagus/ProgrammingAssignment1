@@ -28,8 +28,7 @@ int shellCheckDaemon_code()
       printf("There are in total of %d live daemons \n", live_daemons);
    }
 
-
-   // TODO: close any file pointers and free any statically allocated memory 
+   // TODO: close any file pointers and free any dynamically allocated memory
 
    return 1;
 }
